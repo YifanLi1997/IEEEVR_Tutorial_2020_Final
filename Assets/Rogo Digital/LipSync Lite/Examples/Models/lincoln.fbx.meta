@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 954cc2e2a795089478410e4488b669ff
 ModelImporter:
-  serializedVersion: 26
+  serializedVersion: 19300
   internalIDToNameTable:
   - first:
       1: 100000
@@ -277,45 +277,45 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 'Material #105'
+      name: Material #105
     second: {fileID: 2100000, guid: 5705011d282332d4c8abc315f887cbc7, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 'Material #125'
+      name: Material #125
     second: {fileID: 2100000, guid: 94f19895c9c3a304387c552d43ef0d4d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 'Material #135'
+      name: Material #135
     second: {fileID: 2100000, guid: c5a724bf06b4cbe42989591a1197d89d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 'Material #35'
+      name: Material #35
     second: {fileID: 2100000, guid: 32fd14e3a7029944bb292521c6c2a63b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 'Material #55'
+      name: Material #55
     second: {fileID: 2100000, guid: 67e91f4268f878f4d91ed687497d0fe2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 'Material #75'
+      name: Material #75
     second: {fileID: 2100000, guid: a7eda2230e15f824aa4a04f5bf7d21e8, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 'Material #85'
+      name: Material #85
     second: {fileID: 2100000, guid: 6d0abc1de9d774d4c8984227ddefd1f3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 'Material #95'
+      name: Material #95
     second: {fileID: 2100000, guid: f6bb32c53d56d034b9ebff082cb74ed4, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -380,7 +380,6 @@ ModelImporter:
   referencedClips:
   - bfc6ad7ce0c217143bab1dad067232cb
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
     serializedVersion: 3
     human:
@@ -762,8 +761,10 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
