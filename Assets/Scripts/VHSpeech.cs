@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using RogoDigital.Lipsync;
+
 public class VHSpeech : MonoBehaviour
 {
     private LipSync ls;
