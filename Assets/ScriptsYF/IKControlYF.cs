@@ -10,29 +10,16 @@ public class IKControlYF : MonoBehaviour
     public bool ikActive = false;
     public Transform lookObj; 
 
-    // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnAnimatorIK()
     {
-        if (animator)
-        {
-            //Debug.Log("animator");
-            if (ikActive)
-            {
-                //Debug.Log("ikActive");
-                if (lookObj != null)
-                {
-                    //Debug.Log("lookObj");
+        if (animator){
+            if (ikActive){
+                if (lookObj != null){
                     for (int i = 0; i <= 1; i++)
                     {
                         animator.SetLookAtWeight(i);
@@ -40,10 +27,8 @@ public class IKControlYF : MonoBehaviour
                     }
                 }
             }
-            else
-            {
-                for (int i = 1; i >= 0; i++)
-                {
+            else{
+                for (int i = 1; i >= 0; i--){
                     animator.SetLookAtWeight(i);
                 }
             }
